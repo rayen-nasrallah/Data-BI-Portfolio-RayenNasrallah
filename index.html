@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio Data & BI - Rayen Nasrallah</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2b8e9b2e5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+  <!-- ===== HEADER ===== -->
   <header>
-    <h1>Rayen Nasrallah</h1>
-    <p>Data Analyst & Business Intelligence Enthusiast</p>
-    <nav>
-      <a href="#about">À propos</a>
-      <a href="#projects">Projets</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Rayen Nasrallah</h1>
+      <p>Data Analyst & Business Intelligence Enthusiast</p>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="fade-in">
     <h2>À propos</h2>
     <p>
       Étudiant en Business Intelligence et Data Analytics, je combine analyse de données, 
       programmation et visualisation pour transformer l’information en décisions stratégiques. 
-      Passionné par l’IA et la création de valeur à partir des données.
+      Passionné par l’IA, la BI et le développement d’applications intelligentes, 
+      j’ai travaillé sur divers projets allant de la création de dashboards Power BI 
+      à la conception d’applications Django.
     </p>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="fade-in">
     <h2>Mes Projets</h2>
 
     <div class="project">
-      <h3>📊 Dashboard Power BI – Liste d’attente patient</h3>
-      <p>Analyse des temps d’attente hospitaliers pour améliorer la gestion des ressources.</p>
-      <a href="dashboard for patient wait list.pbix" download>Télécharger le fichier Power BI</a>
+      <i class="fas fa-chart-line icon"></i>
+      <h3>Dashboard Power BI – Liste d’attente patient</h3>
+      <p>Analyse des temps d’attente hospitaliers pour améliorer la gestion des ressources et la satisfaction patient.</p>
+      <a href="dashboard for patient wait list.pbix" download>📥 Télécharger le fichier Power BI</a>
     </div>
 
     <div class="project">
-      <h3>🚗 Application Django – Gestion d’agence de location</h3>
-      <p>Plateforme complète de gestion des réservations, véhicules et historiques clients.</p>
-      <a href="car_rental.zip" download>Télécharger le code source (ZIP)</a>
+      <i class="fas fa-car icon"></i>
+      <h3>Application Django – Gestion d’agence de location</h3>
+      <p>Plateforme web complète pour gérer les réservations, les véhicules et les historiques clients.</p>
+      <a href="car_rental.zip" download>📥 Télécharger le code source</a>
     </div>
 
     <div class="project">
-      <h3>🧠 Notebook Python – Carte interactive Italie</h3>
-      <p>Analyse géographique avec Python et visualisation de données.</p>
-      <a href="map d italie .ipynb" download>Télécharger le notebook</a>
+      <i class="fas fa-brain icon"></i>
+      <h3>Notebook Python – Carte interactive d’Italie</h3>
+      <p>Exploration de données géographiques et visualisation interactive via Jupyter Notebook.</p>
+      <a href="map d italie .ipynb" download>📥 Télécharger le notebook</a>
     </div>
 
     <div class="project">
-      <h3>📘 Rapport Génie Logiciel</h3>
-      <p>Document d’étude sur la conception et la gestion de projets informatiques.</p>
-      <a href="Rapport genie logiciel (1).docx" download>Télécharger le rapport</a>
+      <i class="fas fa-file-alt icon"></i>
+      <h3>Rapport Génie Logiciel</h3>
+      <p>Étude détaillée sur la conception et la gestion de projets logiciels selon les méthodologies agiles.</p>
+      <a href="Rapport genie logiciel (1).docx" download>📥 Télécharger le rapport</a>
     </div>
-
   </section>
 
-  <section id="contact">
+  <section id="contact" class="fade-in">
     <h2>Contact</h2>
-    <p>📧 <a href="mailto:rayen.nasrallah@example.com">rayen.nasrallah@example.com</a></p>
-    <p>🌐 <a href="https://github.com/RayenNasrallah" target="_blank">Mon GitHub</a></p>
-    <p>🔗 <a href="https://www.linkedin.com/in/rayen-nasrallah/" target="_blank">LinkedIn</a></p>
+    <p><i class="fas fa-envelope"></i> <a href="mailto:rayenca295@gmail.com">rayenca295@gmail.com</a></p>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/RayenNasrallah" target="_blank">github.com/RayenNasrallah</a></p>
+    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/rayennasrallah/" target="_blank">www.linkedin.com/in/rayennasrallah</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Rayen Nasrallah — Portfolio Data & BI</p>
+    <p>© 2025 Rayen Nasrallah — Portfolio Data & Business Intelligence</p>
   </footer>
 </body>
 </html>
